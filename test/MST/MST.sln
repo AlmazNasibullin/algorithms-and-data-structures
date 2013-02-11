@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MST", "MST\MST.vcproj", "{E10E8276-31F6-4AC5-A1D2-3BB048E7FDB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E10E8276-31F6-4AC5-A1D2-3BB048E7FDB7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E10E8276-31F6-4AC5-A1D2-3BB048E7FDB7}.Debug|Win32.Build.0 = Debug|Win32
+		{E10E8276-31F6-4AC5-A1D2-3BB048E7FDB7}.Release|Win32.ActiveCfg = Release|Win32
+		{E10E8276-31F6-4AC5-A1D2-3BB048E7FDB7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

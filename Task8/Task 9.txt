@@ -1,0 +1,2 @@
+﻿Решить задачу LCA с использованием подъема по степеням двойки.
+http://acm.mipt.ru/judge/problems.pl?problem=123

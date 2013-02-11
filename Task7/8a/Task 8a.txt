@@ -1,0 +1,2 @@
+﻿Реализовать задачу RMQ с использованием SparseTable.
+Проверить себя http://acm.mipt.ru/judge/problems.pl?problem=105
