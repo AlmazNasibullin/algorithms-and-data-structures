@@ -1,0 +1,31 @@
+ Класс BiGraph.
+
+Напишите шаблонный класс BiGraph соответствующий ориентированному графу.
+Здесь тип Name определяет параметр шаблона  (в черновом варианте его можно положить равным int).
+Внутри класса BiGraph определите классы Vertex и Edge.
+
+Вершины храните в графе в виде отображение
+private: 
+	map<Name, Vertex*> m_vertices;
+
+Определите в классе методы:
+
+bool add_vertex( const Name& v );
+Edge* add_edge( const Name& v, const Name& w, double weight);
+bool delete_edge(const Name& v, const Name& w);
+vertices_range  vertices();
+size_t vertices_count() const;
+size_t edges_count() const;
+void clear();
+
+Тип vertices_range соответствует паре итераторов pair<vertex_iterator, vertex_iterator>,
+указывающих на первую вершину промежутка и на конец промежутка (указатель на следующий элемент после последнего).
+
+В классе Vertex определите методы out_edges и in_edges, которые соответственно возвращают пары итераторов out_edge_iterator и in_edge_iterator.
+
+Определите классы итераторов vertex_iterator, out_edge_iterator, in_edge_iterator.
+Определите для них оператор ==, префиксный  оператор ++, и унарный оператор разыменования *.
+Попробуйте создать шаблон итератора, с помощью которого можно задать все три итератора.
+В вершинах исходящие и входящие рёбра удобно хранить как map<Vertex*, Edge*> m_out_edges;.
+
+Следите за тем, чтобы тела объектов Vertex и Edge не дублировались в памяти, используемой графом.
